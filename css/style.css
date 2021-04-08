@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*debug*/
+
+.container {
+    min-height: 50px; /*debug*/
+    border: 2px solid black; /*debug*/
+}
+[class*="col-"] {
+    text-align: center;
+    padding: 8px;
+    min-height: 50px; 
+    border: 1px solid red;
+    /* background-color: burlywood; */
+}
+/*debug*/
+
+/* mobile */
+@media screen and (max-width: 767px){
+    .bg-cream {
+        background-color: #F2F2CD;
+    }
+
+    img {
+        height: 80px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    img {
+        height: 100px;
+    }
+}
+
+/* desktop*/
+@media screen and (min-width: 992px) {
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        height: 150px;
+    }
+    .bg-grey {
+        background-color: #F9F9F9
+    }
+}
