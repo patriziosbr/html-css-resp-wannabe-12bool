@@ -3,19 +3,30 @@
     margin: 0;
     padding: 0;
 }
+.bg-img {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+.bord-btm {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+#why img {
+    margin-top: 24px;
+}
 
 
 /*debug*/
+/*.container {*/
+    /* min-height: 50px; debug */
+    /* border: 2px solid black; debug */
+/*}*/
 
-.container {
-    min-height: 50px; /*debug*/
-    border: 2px solid black; /*debug*/
-}
 [class*="col-"] {
     text-align: center;
     padding: 8px;
-    min-height: 50px; 
-    border: 1px solid red;
+    /* min-height: 50px; 
+    border: 1px solid red; */
     /* background-color: burlywood; */
 }
 /*debug*/
@@ -25,7 +36,6 @@
     .bg-cream {
         background-color: #F2F2CD;
     }
-
     img {
         height: 80px;
     }
@@ -35,6 +45,9 @@
 @media screen and (min-width: 768px) and (max-width: 991px){
     img {
         height: 100px;
+    }
+    .bord-btm {
+            border-bottom: 0;
     }
 }
 
@@ -53,6 +66,21 @@
         height: 150px;
     }
     .bg-grey {
-        background-color: #F9F9F9
+        background-color: #f9f9f9
+    }
+    #where,
+    #how,
+    #why {
+        margin: 32px auto;
+    }
+    #where h2,
+    #how h2,
+    #why h2 {
+        margin-bottom: 16px;
+    }
+    #where h3,
+    #how h3,
+    #why h3 {
+        margin: 16px 0;
     }
 }
