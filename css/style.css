@@ -3,19 +3,22 @@
     margin: 0;
     padding: 0;
 }
+body {
+    text-align: center; /*fix-in-class*/
+}
 .bg-img {
     padding: 15px;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
 .bord-btm {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 #why img {
     margin-top: 8px;
 }
 [class*="col-"] {
-    text-align: center;
+    /* text-align: center;  body fix-in-class */
     padding: 16px;
 }
 /*debug*/
@@ -68,12 +71,12 @@
         height: 150px;
     }
     .bg-grey {
-        background-color: #f9f9f9
+        background-color: #f9f9f9;
     }
     #where,
     #how,
     #why {
-        margin: 32px auto;
+        margin: 48px auto;
     }
     #where h2,
     #how h2,
